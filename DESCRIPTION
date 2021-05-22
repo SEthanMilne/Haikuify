@@ -1,11 +1,10 @@
 Package: Haikuify
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Finding Art in Text
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Ethan Milne
+Maintainer: Ethan Milne <emilne.phd@ivey.ca>
+Description: Haikuify finds the hidden art in text - specifically, the accidental haikus that may appear in documents. 
+License: MIT
 Encoding: UTF-8
 LazyData: true
