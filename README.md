@@ -65,3 +65,24 @@ You can install `haikuify` with the following code:
 install.packages("devtools") # if you have not installed "devtools" package
 devtools::install_github("SEthanMilne/haikuify")
 ```
+
+## Citation
+
+I'm sure this will be used in many peer-reviewed publications. To that end, the citation for `Haikuify` can be found below:
+
+```{r}
+To cite package ‘Haikuify’ in publications use:
+
+  Ethan Milne (2021). Haikuify: Finding Art in Text. R package version
+  0.1.0.
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {Haikuify: Finding Art in Text},
+    author = {Ethan Milne},
+    year = {2021},
+    note = {R package version 0.1.0},
+  }
+
+```
