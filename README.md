@@ -34,7 +34,7 @@ Here's how it works:
 * Split those sentences into words
 * Calculate the syllable counts for each word
 * Filter for those sentences which have exactly 17 syllables
-* Compute cumulate syllable counts by word for each sentence
+* Compute cumulative syllable counts by word for each sentence
 * Filter for those sentences that have a cumulative syllable count of 5, 12, AND 17
 * Combine those sentences which meet the above criteria, adding "/" to denote line breaks
 * Display a vector of all newly-formatted sentences
