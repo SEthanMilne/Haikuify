@@ -1,5 +1,16 @@
+<img align="right" src="https://user-images.githubusercontent.com/83033161/119237203-a9a20700-bb09-11eb-9b58-8eeae1c87fa1.png"> 
+
 # Haikuify
 Finding Art in Text
+
+**Author**: Ethan Milne, PhD Student (Marketing/Consumer Behavior), Ivey Business School
+
+**Purpose**: Personal amusement
+
+**Hotel?**: Trivago
+
+
+
 
 ## Haikus
 
