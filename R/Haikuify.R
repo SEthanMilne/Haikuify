@@ -24,6 +24,6 @@ haikuify <- function (x){
     mutate(word = ifelse(syllable_count == 5, paste(word, "/", sep = " "), word),
            word = ifelse(syllable_count == 12, paste(word, "/", sep = " "), word)) %>%
     summarise(text = stringr::str_c(word, collapse = " ")) %>%
-    mutate(text = str_to_title(text)) %>%
+    mutate(text = stringr::str_to_title(text)) %>%
     dplyr::pull(text)
 }
