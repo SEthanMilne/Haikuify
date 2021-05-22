@@ -3,9 +3,9 @@ Finding Art in Text
 
 ## Haikus
 
-A (haiku)[https://en.wikipedia.org/wiki/Haiku] is a style of short-form poetry originating from Japan. The distinctive characteristic of a haiku is its syllable structure: a haiku's three lines have 5, 7, and 5 syllables for each respective line, for a total of 17 syllables. This condensed format can make for wonderfully complex yet simple poetry, which is why it's always been amusing to me to find "accidental" haikus in the wild - sentences that conform to the traditional format of a haiku yet with none of the artistic intentionality.
+A [haiku](https://en.wikipedia.org/wiki/Haiku) is a style of short-form poetry originating from Japan. The distinctive characteristic of a haiku is its syllable structure: a haiku's three lines have 5, 7, and 5 syllables for each respective line, for a total of 17 syllables. This condensed format can make for wonderfully complex yet simple poetry, which is why it's always been amusing to me to find "accidental" haikus in the wild - sentences that conform to the traditional format of a haiku yet with none of the artistic intentionality.
 
-To give an example of how prevalent accidental haikus are, I direct you to (this website)[https://haiku.somebullshit.net/1.html], which claims to have identified over 4.5 million words worth of haikus scraped from reddit comments between 2005-2016. Some examples:
+To give an example of how prevalent accidental haikus are, I direct you to [this website](https://haiku.somebullshit.net/1.html), which claims to have identified over 4.5 million words worth of haikus scraped from reddit comments between 2005-2016. Some examples:
 
 * Can't you see how much / better you make the world just / by being in it?
 * Your cat has no more / metaphysical value / than a deer or cow.
