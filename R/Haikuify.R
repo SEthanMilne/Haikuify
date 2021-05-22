@@ -23,7 +23,7 @@ haikuify <- function (x){
     filter(any(syllable_count == 17)) %>%
     mutate(word = ifelse(syllable_count == 5, paste(word, "/", sep = " "), word),
            word = ifelse(syllable_count == 12, paste(word, "/", sep = " "), word)) %>%
-    summarise(text = str_c(word, collapse = " ")) %>%
+    summarise(text = stringr::str_c(word, collapse = " ")) %>%
     mutate(text = str_to_title(text)) %>%
     dplyr::pull(text)
 }
