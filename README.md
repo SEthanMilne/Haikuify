@@ -31,6 +31,8 @@ Here's how it works:
 
 ## Example
 ```{r}
+library(Haikuify)
+
 text <- "I've been wondering for a while now how we might start this project. We need to make sure that the tools are all in place to get started soon. Sound good? Let's get going."
 
 haikuify(text)
