@@ -63,7 +63,7 @@ You can install `haikuify` with the following code:
 
 ```{r}
 install.packages("devtools") # if you have not installed "devtools" package
-devtools::install_github("SEthanMilne/haikuify")
+devtools::install_github("SEthanMilne/Haikuify")
 ```
 
 ## Citation
