@@ -3,7 +3,7 @@ haikuify <- function (x){
     strsplit("(?<=[[:punct:]])\\s(?=[A-Z])", perl = T) %>%
     unlist() %>%
     data.frame() %>%
-    rename("Sentences" = ".") %>%
+    rename("Sentences" = 1) %>%
     mutate(
       Sentences = gsub("[[:punct:]]", "", Sentences),
       Sentences = tolower(Sentences),
@@ -11,7 +11,7 @@ haikuify <- function (x){
     ) %>%
     tidytext::unnest_tokens(word, Sentences) %>%
     mutate(
-      syllables = quanteda::nsyllable(word, syllable_dictionary = quanteda::data_int_syllables) %>%
+      syllables = nsyllable::nsyllable(word) %>%
         as.numeric()
     ) %>%
     group_by(Sentence_ID) %>%
